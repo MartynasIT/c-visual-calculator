@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1542814682 source:c:\users\martin\desktop\c++\projektas\main.cpp
+	<iostream>
+	<sstream>
+	<tchar.h>
+	<windows.h>
+	"menu.h"
+	<string>
+	<stdio.h>
+	<iomanip>
+
+1542746376 c:\users\martin\desktop\c++\projektas\menu.h
+
+1542746460 source:c:\users\martin\desktop\c++\projektas\menu.rc
+	"menu.h"
+	<windows.h>
+
+1542745571 source:c:\users\martin\desktop\c++\projektas\dialog.rc
+	"menu.h"
+	<windows.h>
+

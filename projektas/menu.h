@@ -1,0 +1,17 @@
+#define IDR_MYMENU 101
+#define ID_FILE_SAVE 9001
+#define ID_FILE_LOAD 9002
+#define ID_FILE_CLEAR 9003
+#define IDI_MYICON 201
+#define BUTTON_1 1001
+#define BUTTON_2 1002
+#define BUTTON_3 1003
+#define BUTTON_4 1004
+#define BUTTON_5 1005
+#define BUTTON_6 1006
+#define BUTTON_7 1007
+#define BUTTON_8 1008
+#define BUTTON_9 1009
+#define MYDIALOG 2000
+#define DIALOG_BUTTON 5
+#define DIALOG_BUTTON2 6

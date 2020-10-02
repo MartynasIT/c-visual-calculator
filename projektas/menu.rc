@@ -1,0 +1,23 @@
+#include "menu.h"
+#include  <windows.h>
+IDR_MYMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Save", ID_FILE_SAVE
+        MENUITEM "Load", ID_FILE_LOAD
+        MENUITEM "Clear", ID_FILE_CLEAR
+    END
+
+END
+IDI_MYICON ICON "icona.ico"
+
+MYDIALOG DIALOG 50, 50, 200, 100
+STYLE WS_CAPTION | WS_POPUP | WS_SYSMENU | DS_MODALFRAME
+//FONT 8, "MS Shell Dlg"
+CAPTION "Warning"
+{
+    LTEXT "Your saved history file gonna be deleted. Are you sure?", 20,  20, 19, 180, 40
+    DEFPUSHBUTTON "Yes", DIALOG_BUTTON,  5, 80, 60,  15, WS_TABSTOP
+    DEFPUSHBUTTON "No", DIALOG_BUTTON2,  120, 80, 60,  15, WS_TABSTOP
+}
